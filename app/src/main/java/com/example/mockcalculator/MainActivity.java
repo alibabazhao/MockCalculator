@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -227,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -244,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
                 digit++;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
@@ -274,7 +274,7 @@ public class MainActivity extends AppCompatActivity {
                 is_input_decimal=true;
 
                 //set the number in text view
-                tv_number.setText(print(current_input));
+                tv_number.setText(current_input);
             }
         });
 
