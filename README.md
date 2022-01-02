@@ -25,6 +25,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - Design the entire application took lots of times.
   1. Need to be clear with the required features, then can work on the functions.
   2. Need to consider how to save the data, which will affect the implementation of the required features. 
+- Other related [problems](https://github.com/alibabazhao/MockCalculator/tree/master/doc). 
 
 ## License
 
