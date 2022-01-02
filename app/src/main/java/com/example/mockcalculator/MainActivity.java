@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private String previous_input;
     private int digit; //save the total digits
     private char sign;
+    private boolean is_input_decimal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -251,6 +252,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(btn_clear.getText().toString().equals("AC"))
                     btn_clear.setText("C");
+
+                //check if already has dot
+                if(is_input_decimal)
+                    return;
+
                 //check the total digits
                 if (digit>=DIGITS)
                     return;
@@ -264,6 +270,8 @@ public class MainActivity extends AppCompatActivity {
                     current_input=current_input.concat(".");
                     digit++;
                 }
+
+                is_input_decimal=true;
 
                 //set the number in text view
                 tv_number.setText(print(current_input));
@@ -457,6 +465,7 @@ public class MainActivity extends AppCompatActivity {
 
         digit = 0;
         sign = ' ';
+        is_input_decimal=false;
     }
     private String print(String input){
         int left=input.indexOf('.');
@@ -480,6 +489,7 @@ public class MainActivity extends AppCompatActivity {
     private void clearInput(){
         current_input="";
         digit=0;
+        is_input_decimal=false;
     }
     private void calculate(String num1, String num2){
         float x=Float.parseFloat(num1);
